@@ -3,7 +3,7 @@ let ws;
 let value; 
 
 function connectionWebSocket(){
-    ws= new WebSocket('ws://localhost:3006');
+    ws= new WebSocket('wss://nodejs-course-prod-x5gx.onrender.com');
 
     //Evening
     ws.onopen= ()=>{
